@@ -1,0 +1,31 @@
+Oj.mimic_JSON
+# Default options from Oj@v.2.x.x
+Oj.default_options = {
+  quirks_mode: false,
+  indent: 0,
+  second_precision: 9,
+  circular: false,
+  class_cache: false,
+  auto_define: false,
+  symbol_keys: false,
+  bigdecimal_as_decimal: false,
+  use_to_json: true,
+  use_as_json: true,
+  nilnil: true,
+  empty_string: true,
+  allow_gc: true,
+  allow_invalid_unicode: false,
+  float_precision: 15,
+  mode: :compat,
+  escape_mode: :json,
+  time_format: :ruby,
+  bigdecimal_load: :float,
+  create_id: "json_class",
+  space: nil,
+  space_before: nil,
+  object_nl: nil,
+  array_nl: nil,
+  nan: :auto,
+  omit_nil: false,
+  hash_class: nil
+}
